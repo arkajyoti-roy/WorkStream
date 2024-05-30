@@ -62,6 +62,8 @@ if (isset($_POST['g-recaptcha-response'])) {
 
 ?>
 
+
+
 <!DOCTYPE html>
 <html>
 
@@ -207,6 +209,7 @@ if (isset($_POST['g-recaptcha-response'])) {
 		body {
 			font-family: 'Poppins', sans-serif;
 			overflow: hidden;
+
 		}
 
 		.wave {
@@ -413,7 +416,19 @@ if (isset($_POST['g-recaptcha-response'])) {
 		@media screen and (max-width: 900px) {
 			.container {
 				grid-template-columns: 1fr;
+				position: relative;
+				left: -7%;
+
 			}
+
+			form {
+				margin-left: 40px;
+				margin-top: -170px;
+				width: 360px;
+				border-radius: 9px;
+				padding: 3%;
+			}
+
 
 			.img {
 				display: none;
@@ -430,7 +445,8 @@ if (isset($_POST['g-recaptcha-response'])) {
 
 		.logo {
 			width: 208px;
-			margin-left: 1345px;
+			position: relative;
+			float: right;
 		}
 	</style>
 
