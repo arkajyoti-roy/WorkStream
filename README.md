@@ -11,7 +11,7 @@
             </tr>
                <tr>
                 <td><p>Contributors</p></td>
-                <td><p>Arkajyotiroy,Sagar Deep Saha</p></td>
+                <td><p>Arkajyoti Roy</p></td>
             </tr>
             <tr>
                 <td><p>Project-Type</p></td>
